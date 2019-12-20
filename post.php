@@ -145,7 +145,11 @@ echo "<pre>";
 
 
 
+<footer>
+    <?php include "footer.php";
 
+    ?>
+</footer>
 
 
 </body>

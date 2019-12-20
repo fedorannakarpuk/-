@@ -4,6 +4,23 @@
     margin: 0;
 }
 
+body{
+    background:  url("../image/fon-priroda4.jpg") top / cover no-repeat fixed;
+    opacity: 0.7;
+    /*font-family: cursive;*/
+    /*font-size: 20px;*/
+    /*width: 70%;*/
+    /*margin: 0 auto;*/
+}
+
+
+.main-content {
+    text-align: justify;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+}
+
+
 ul{
             list-style-type:none;
             display: flex;
@@ -37,6 +54,8 @@ ul{
 img{
     display: block;
     margin: 0 auto;
+    border: 10px double olivedrab;
+    padding: 20px;
 }
 
 p{
@@ -73,6 +92,13 @@ input{
     text-shadow: 1px 1px 1.5px black, -1px -1px 1.5px black;
 }
 
+footer {
+    display: block;
+    color: black;
+    width: 80%;
+    margin: 0 auto;
+text-align: center;
+}
 
 
 

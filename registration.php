@@ -1,7 +1,5 @@
-<?php 
-$one = "Люблю читать кники, да и любую литературу";
-$two = "Нравиться смотреть фильмы и сериалы";
-$three = "Абсолютно ничего";
+<?php
+include "include.php";
 
 ?>
 
@@ -14,7 +12,7 @@ $three = "Абсолютно ничего";
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="style/style.css" rel="stylesheet">
 <!--    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">-->
-    <title>Classwork</title>
+    <title><?= $title?></title>
     
  
     
